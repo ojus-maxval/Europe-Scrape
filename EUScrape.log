@@ -1770,3 +1770,212 @@ Traceback (most recent call last):
     raise exception_class(message, screen, stacktrace)
 selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id
 
+2021-11-12 15:45:04,031:INFO:Opening and reading the text file
+2021-11-12 15:45:04,031:INFO:Automation starts
+2021-11-12 15:45:09,935:INFO:Main process starts
+2021-11-12 15:45:09,935:INFO:Starting the parsing through the webpage
+2021-11-12 15:45:15,809:INFO:Parsing done successfully
+2021-11-12 15:45:15,842:ERROR:Error occured during webpage parsing
+2021-11-12 15:45:18,099:INFO:Starting Data scrapping
+2021-11-12 15:45:20,138:WARNING:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025A50A7B070>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/242a4eceeaa26b90d0ca18866c2d7936/element
+2021-11-12 15:45:22,177:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025A50A7BAC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/242a4eceeaa26b90d0ca18866c2d7936/element
+2021-11-12 15:45:24,215:WARNING:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025A50A7B8B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/242a4eceeaa26b90d0ca18866c2d7936/element
+2021-11-12 15:45:26,260:ERROR:Error occured during Data scrapping
+2021-11-12 15:45:28,304:WARNING:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025A50A7BD00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/242a4eceeaa26b90d0ca18866c2d7936
+2021-11-12 15:45:30,344:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025A50A7BEE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/242a4eceeaa26b90d0ca18866c2d7936
+2021-11-12 15:45:32,384:WARNING:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025A50AA8040>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/242a4eceeaa26b90d0ca18866c2d7936
+2021-11-12 15:45:34,433:INFO:Starting JSON conversion
+2021-11-12 15:45:34,433:INFO:JSON conversion successful
+2021-11-12 15:45:38,479:WARNING:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025A50AA8760>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/242a4eceeaa26b90d0ca18866c2d7936/window
+2021-11-12 15:45:40,525:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025A50AA8940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/242a4eceeaa26b90d0ca18866c2d7936/window
+2021-11-12 15:45:42,565:WARNING:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025A50AA8A60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/242a4eceeaa26b90d0ca18866c2d7936/window
+2021-11-12 15:45:44,607:ERROR:Exception error occurred
+Traceback (most recent call last):
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1279, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1325, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1274, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1034, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 974, in send
+    self.connect()
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x0000025A50AA8BE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\ojus.g_maxval\OjusG\Europe Scrape\EUScrapping.py", line 142, in <module>
+    driver.close()
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 688, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\request.py", line 74, in request
+    return self.request_encode_url(
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\request.py", line 96, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=62730): Max retries exceeded with url: /session/242a4eceeaa26b90d0ca18866c2d7936/window (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025A50AA8BE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-11-12 15:45:46,682:WARNING:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025A50AA8E50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/242a4eceeaa26b90d0ca18866c2d7936
+2021-11-12 15:45:48,724:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025A50AB8430>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/242a4eceeaa26b90d0ca18866c2d7936
+2021-11-12 15:45:50,774:WARNING:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025A50AB8550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/242a4eceeaa26b90d0ca18866c2d7936
+2021-11-12 15:46:37,206:INFO:Opening and reading the text file
+2021-11-12 15:46:37,206:INFO:Automation starts
+2021-11-12 15:46:43,181:INFO:Main process starts
+2021-11-12 15:46:43,181:INFO:Starting the parsing through the webpage
+2021-11-12 15:46:49,610:INFO:Parsing done successfully
+2021-11-12 15:46:49,646:ERROR:Error occured during webpage parsing
+2021-11-12 15:46:51,916:INFO:Starting Data scrapping
+2021-11-12 15:46:53,959:WARNING:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C311C7B070>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/004c5ad92e034b6b91aa0bc35ccea4c2/element
+2021-11-12 15:46:55,993:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C311C7BAC0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/004c5ad92e034b6b91aa0bc35ccea4c2/element
+2021-11-12 15:46:58,034:WARNING:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C311C7B8B0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/004c5ad92e034b6b91aa0bc35ccea4c2/element
+2021-11-12 15:47:00,079:ERROR:Error occured during Data scrapping
+2021-11-12 15:47:02,125:WARNING:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C311C7BD00>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/004c5ad92e034b6b91aa0bc35ccea4c2
+2021-11-12 15:47:04,170:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C311C7BEE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/004c5ad92e034b6b91aa0bc35ccea4c2
+2021-11-12 15:47:06,219:WARNING:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C311CA8040>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/004c5ad92e034b6b91aa0bc35ccea4c2
+2021-11-12 15:47:08,267:INFO:Starting JSON conversion
+2021-11-12 15:47:08,267:INFO:JSON conversion successful
+2021-11-12 15:47:12,319:WARNING:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C311CA8760>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/004c5ad92e034b6b91aa0bc35ccea4c2/window
+2021-11-12 15:47:14,360:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C311CA8940>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/004c5ad92e034b6b91aa0bc35ccea4c2/window
+2021-11-12 15:47:16,402:WARNING:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C311CA8A60>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/004c5ad92e034b6b91aa0bc35ccea4c2/window
+2021-11-12 15:47:18,456:ERROR:Exception error occurred
+Traceback (most recent call last):
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\util\connection.py", line 96, in create_connection
+    raise err
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\util\connection.py", line 86, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connectionpool.py", line 699, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connectionpool.py", line 394, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connection.py", line 239, in request
+    super(HTTPConnection, self).request(method, url, body=body, headers=headers)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1279, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1325, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1274, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 1034, in _send_output
+    self.send(msg)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2032.0_x64__qbz5n2kfra8p0\lib\http\client.py", line 974, in send
+    self.connect()
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connection.py", line 205, in connect
+    conn = self._new_conn()
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001C311CA8BE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "c:\Users\ojus.g_maxval\OjusG\Europe Scrape\EUScrapping.py", line 142, in <module>
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 688, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\selenium\webdriver\remote\webdriver.py", line 319, in execute
+    response = self.command_executor.execute(driver_command, params)
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\selenium\webdriver\remote\remote_connection.py", line 374, in execute
+    return self._request(command_info[0], url, body=data)
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\selenium\webdriver\remote\remote_connection.py", line 397, in _request
+    resp = self._conn.request(method, url, body=body, headers=headers)
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\request.py", line 74, in request
+    return self.request_encode_url(
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\request.py", line 96, in request_encode_url
+    return self.urlopen(method, url, **extra_kw)
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\poolmanager.py", line 375, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connectionpool.py", line 783, in urlopen
+    return self.urlopen(
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\connectionpool.py", line 755, in urlopen
+    retries = retries.increment(
+  File "C:\Users\ojus.g_maxval\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\urllib3\util\retry.py", line 574, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='127.0.0.1', port=49748): Max retries exceeded with url: /session/004c5ad92e034b6b91aa0bc35ccea4c2/window (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C311CA8BE0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2021-11-12 15:47:20,516:WARNING:Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C311CA8E50>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/004c5ad92e034b6b91aa0bc35ccea4c2
+2021-11-12 15:47:22,560:WARNING:Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C311CB8430>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/004c5ad92e034b6b91aa0bc35ccea4c2
+2021-11-12 15:47:24,599:WARNING:Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C311CB8550>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it')': /session/004c5ad92e034b6b91aa0bc35ccea4c2
+2021-11-12 15:50:33,182:INFO:Opening and reading the text file
+2021-11-12 15:50:33,182:INFO:Automation starts
+2021-11-12 15:50:39,258:INFO:Main process starts
+2021-11-12 15:50:39,258:INFO:Starting the parsing through the webpage
+2021-11-12 15:50:44,675:INFO:Parsing done successfully
+2021-11-12 15:50:44,675:INFO:Starting Data scrapping
+2021-11-12 15:50:44,923:INFO:Data scrapping completed successfully
+2021-11-12 15:50:44,923:INFO:Starting JSON conversion
+2021-11-12 15:50:44,923:INFO:JSON conversion successful
+2021-11-12 15:50:47,065:INFO:Creating JSON
+2021-11-12 15:50:47,066:INFO:Pushing JSON data into MongoDB
+2021-11-12 15:50:49,872:INFO:Data successfully pushed into MongoDB
+2021-11-12 16:31:19,159:INFO:Opening and reading the text file
+2021-11-12 16:31:19,159:INFO:Automation starts
+2021-11-12 16:31:24,916:INFO:Main process starts
+2021-11-12 16:31:24,916:INFO:Starting the parsing through the webpage
+2021-11-12 16:31:30,273:INFO:Parsing done successfully
+2021-11-12 16:31:30,273:INFO:Starting Data scrapping
+2021-11-12 16:31:30,404:INFO:Data scrapping completed successfully
+2021-11-12 16:31:30,404:INFO:Starting JSON conversion
+2021-11-12 16:31:30,404:INFO:JSON conversion successful
+2021-11-12 16:31:32,482:INFO:Creating JSON
+2021-11-12 16:31:32,483:INFO:Pushing JSON data into MongoDB
+2021-11-12 16:31:35,137:INFO:Data successfully pushed into MongoDB
+2021-11-12 16:57:02,390:INFO:Opening and reading the text file
+2021-11-12 16:57:02,391:INFO:Automation starts
+2021-11-12 16:57:08,007:INFO:Main process starts
+2021-11-12 16:57:08,007:INFO:Starting the parsing through the webpage
+2021-11-12 16:57:13,439:INFO:Parsing done successfully
+2021-11-12 16:57:13,439:INFO:Starting Data scrapping
+2021-11-12 16:57:13,554:INFO:Data scrapping completed successfully
+2021-11-12 16:57:13,555:INFO:Starting JSON conversion
+2021-11-12 16:57:13,555:INFO:JSON conversion successful
+2021-11-12 16:57:15,646:INFO:Creating JSON
+2021-11-12 16:57:15,646:INFO:Pushing JSON data into MongoDB
+2021-11-12 16:57:18,269:INFO:Data successfully pushed into MongoDB

@@ -61,8 +61,6 @@ class Scrapper:
            
     #Function which parses through the webpage from where the data needs to be extracted    
     def navigate(driver):
-
-        driver.switch_to.window(driver.window_handles[0])
         
         try:
             logging.info("Starting the parsing through the webpage")
